@@ -81,6 +81,12 @@ body {
 
 /* Responsive Design */
 @media (max-width: 600px) {
+    .game-container {
+        /* Ajustar el margen superior para elevar el contenido en pantallas pequeñas */
+        margin-top: 0px; /* Ajusta este valor según sea necesario */
+        padding: 0 10px; /* Añadir padding horizontal si es necesario */
+    }
+
     .game-board {
         grid-template-columns: repeat(3, 80px); /* 3 columnas en pantallas pequeñas */
         grid-template-rows: repeat(2, 80px); /* 2 filas */
