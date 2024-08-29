@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container" class="game-container">
+        <h1 id="game-text">Juego Ari</h1>
+        <p id="game-subtext">Completa el juego y tendrás un regalo</p>
+        
+        <div id="game-board" class="game-board">
+            <!-- Las cartas del juego aparecerán aquí -->
+        </div>
+    </div>
+
+    <div id="reward" class="hidden">
+        <div class="voucher">
+            <h2>¡Felicidades Ari!</h2>
+            <p>Has ganado un vale para una...</p>
+            <div class="voucher-images">
+                <img src="https://media.arandes.es/product/cortina-screen-enr-cadena-estandar-r28-150-x-190cm-800x800_4LP4PWq.jpg" alt="Foto 1">
+                <img src="https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/4059438144615_1.jpg" alt="Foto 2">
+            </div>
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
